@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BurgerTime</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="intro">
+        <div class="intro-text">
+            <div class="hide">
+                <span class="text"> Introducing <br> BurgerTime</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">LOGO</div>
+        <ul class="nav-links">
+                <li>
+                    <a href="#home" class="nav-link"> Home </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link"> About </a>
+                </li>
+                <li>
+                    <a href="#features" class="nav-link"> Features </a>
+                </li>  
+        </ul>
+     
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+
+    <div class="hero" id="home">
+        <div class="hero-heading">
+            Burger Time
+        </div>
+        <div class="hero-img">
+            <img src="assets/hero-img.png" alt="hero img" width="500px">
+        </div>
+        <div class="arrow">
+            <a href="#about">
+            <span class="material-icons">
+                arrow_drop_down
+            </span></a>
+        </div>
+    </div>
+
+    <div class="about" id="about" data-aos="fade-up">
+        <div class="abt-up">
+            <div class="abt-heading">
+                About the app
+            </div>
+            <div class="abt-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestias sequi rerum est ratione ipsam, tenetur vero libero harum soluta, illo error molestiae beatae nulla quas, commodi doloribus ipsa natus.
+            </div>
+        </div>
+        <div class="abt-down">
+            <div class="abt-img">
+                <img src="https://source.unsplash.com/400x400/?app, burger" alt="about app">
+            </div>
+        </div>
+    </div>
+
+    <div class="features" id="features" data-aos="fade-up">
+        <div class="features-head">
+            Features of the App
+        </div>
+
+        <div class="feature">
+            <div class="feature-up">
+                <div class="feature-head">
+                    Customize your Burger
+                </div>
+                <div class="feature-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero impedit vel sed quaerat temporibus quod beatae dignissimos, illo ipsam expedita pariatur saepe aliquid molestias. Assumenda, quam. Labore nam deleniti obcaecati.
+                </div>
+            </div>
+            <div class="feature-down">
+                <img src="https://source.unsplash.com/300x200/?burger" alt ="feature">
+            </div>
+        </div>
+<br>
+        <div class="feature reverse">
+            <div class="feature-up">
+                <div class="feature-head">
+                    Customize your Order
+                </div>
+                <div class="feature-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero impedit vel sed quaerat temporibus quod beatae dignissimos, illo ipsam expedita pariatur saepe aliquid molestias. Assumenda, quam. Labore nam deleniti obcaecati.
+                </div>
+            </div>
+            <div class="feature-down">
+                <img src="https://source.unsplash.com/300x200/?colddrink, burger" alt ="feature">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
