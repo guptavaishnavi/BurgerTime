@@ -2,6 +2,10 @@
     --dark: #1f303f;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 *{
     margin: 0;
     padding: 0;
